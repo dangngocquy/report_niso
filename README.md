@@ -1,6 +1,14 @@
-# LOGIN REPORT NISO
+# REPORT NISO
 
-Hệ thống quản lý báo cáo và đăng nhập cho NISO với giao diện web hiện đại và bảo mật cao.
+Hệ thống quản lý đăng nhập và báo cáo nội bộ cho NISO: frontend React, backend Node.js/Express kết nối SQL Server, JSON Server; hỗ trợ CRUD người dùng và nội dung báo cáo từ Power BI, thực thi truy vấn SQL, quản lý tệp trên Windows; bảo mật bằng HTTPS/SSL, Basic Auth và ký dữ liệu khi đăng nhập.
+
+### Tóm tắt hoạt động & lưu trữ
+
+- **Tài khoản**: SQL Server (`databaseAccount`), mật khẩu băm SHA-256.
+- **Nội dung**: JSON tại `frontend/src/data/database.json` (backend đọc/ghi).
+- **Kết nối/Query**: `backend/connections.json`, `backend/folders.json`; thực thi query có retry/timeout/cache.
+- **File system**: Duyệt/đọc/tạo/sửa/xóa/tìm kiếm; khóa đường dẫn (lưu `backend/path_passwords.json`).
+- **Bảo mật**: HTTPS (SSL), Basic Auth, ký/xác minh khi đăng nhập.
 
 ## 🚀 Tính năng chính
 
@@ -194,4 +202,4 @@ ISC License
 
 ## 👥 Tác giả
 
-Đặng Ngọc Quý Development Team
+Đặng Ngọc Quý
