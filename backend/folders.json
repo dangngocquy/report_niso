@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1731674872127",
+    "connectionId": "1731674722909",
+    "folderName": "asd",
+    "createdAt": "2024-11-15T12:47:52.139Z",
+    "queries": [
+      {
+        "id": "1731674875789",
+        "queryName": "sad",
+        "queryContent": "SELECT * FROM databaseAccount;\n",
+        "folderId": "1731674872127",
+        "createdAt": "2024-11-15T12:47:55.789Z",
+        "keysUser": [],
+        "lastModifiedAt": "2024-11-15T12:48:07.236Z",
+        "keysUserTime": {
+          "C3A55C05-4D0A-439B-AAFE-84CDDF8F4C88": {
+            "grantedAt": "15/11/2024 20:18:36"
+          },
+          "BBA010F4-BD70-449D-BFD7-E929D3D2EB6A": {
+            "grantedAt": "15/11/2024 20:18:36"
+          },
+          "733C9E54-D367-4556-8DA7-F5F3967DDC37": {
+            "grantedAt": "15/11/2024 20:18:36"
+          }
+        }
+      }
+    ],
+    "keysUser": [],
+    "keysUserTime": {
+      "C3A55C05-4D0A-439B-AAFE-84CDDF8F4C88": {
+        "grantedAt": "15/11/2024 21:17:06"
+      },
+      "BBA010F4-BD70-449D-BFD7-E929D3D2EB6A": {
+        "grantedAt": "15/11/2024 21:17:06"
+      },
+      "733C9E54-D367-4556-8DA7-F5F3967DDC37": {
+        "grantedAt": "15/11/2024 21:17:06"
+      }
+    }
+  }
+]

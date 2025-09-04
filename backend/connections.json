@@ -1,0 +1,17 @@
+[
+  {
+    "connectionName": "TEST",
+    "username": "sa",
+    "password": "Niso@123",
+    "ipAddress": "DESKTOP-5C9IQJK",
+    "database": "LOGINREPORTNISO",
+    "id": "1731674722909",
+    "createdAt": "2024-11-15T12:45:22.909Z",
+    "connectionStatus": "disconnected",
+    "lastChecked": "2024-11-16 12:37:23",
+    "isManuallyDisconnected": true,
+    "errorMessage": null,
+    "lastModifiedAt": "2024-11-15T13:25:12.587Z",
+    "disconnectedAt": "2024-11-16 12:37:23"
+  }
+]
